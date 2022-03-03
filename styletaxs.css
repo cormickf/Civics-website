@@ -1,8 +1,8 @@
-/* Navbar container */
 .navbar {
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
+
 }
 
 /* Links inside the navbar */
@@ -33,7 +33,7 @@
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
+/* Add a lightblue background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: lightblue;
 }
@@ -69,125 +69,62 @@
 }
 
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #333;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+#Tax{
+
+text-align: center;
+padding-top: 2em;
+
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+#taxP{
+
+padding-top: 2em;
+
 }
 
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: lightblue;
+#taxAssist{
+
+text-align: center;
+padding-top: 2em;
+    
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
- 
+.taxAssist{
 
-#Title{
+padding-top: 1em;
 
-  text-align: center;
-  font-size: 35px;
   
+}
 
+#TAP {
+padding-top: 2em;
+
+text-align: center;
+font-size: 50px;
 
 }
 
-#hotel1{
-
-  text-indent: 100px;
-  padding-top: 4em;
-  color: black;
-  text-decoration: none;
-  
-  
- 
+ul{
+text-align: center;
+list-style-position: inside;
 
 }
 
-#hotel1 :hover{
-
-
-  text-decoration: underline;
-  color: lightblue;
-  
-  
-
-}
 
 body{
 
 background: #118eee;
 margin: 0;
-  
-}
-
-
-
-.Caesars{
-
-text-indent: 0px;
 
 }
 
+#small{
 
-#ocean{
 
-text-indent: 100px;
-padding-top: 2em;
-text-decoration: none;
-color: black;
+font-size: 20px;
 
 }
-
-#ocean :hover{
-
-text-decoration: underline;
-color: lightblue;
-
-
-}
-.ocean{
-
-text-indent: 0px;
-
-
-}
-
-.harrahs{
-
-text-indent: 100px;
-padding-top: 4em;
-text-decoration: none;
-color: black;
-
-
-}
-
-.harrahs :hover{
-
-text-decoration: underline;
-color: lightblue;
-
-
-}
-
 
 
 html {
@@ -200,9 +137,9 @@ margin:0;
 
 .bg {
 animation:slide 3s ease-in-out infinite alternate;
-background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+background-image: linear-gradient(-20deg, #6c3 50%, #09f 50%);  
 bottom:0;
-left:-50%;
+left:-100%;
 opacity:.5;
 position:fixed;
 right:-50%;
@@ -243,11 +180,4 @@ font-family:monospace;
 100% {
   transform:translateX(25%);
 }
-}
-
-#datetime{
-
-font-size: 20px;
-
-
 }

@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+     <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Saffron News</title>
@@ -14,15 +21,56 @@
     </button>
     <div class="dropdown-content">
       <a href="hotels.html">Hotels</a>
-      <a href="#">Beaches</a>
-      <a href="#">Shops</a>
+      <a href="beaches.html">Beaches</a>
+      <a href="shops.html">Shops</a>
     </div>
   </div>
+
+<div class="dropdown">
+    <button class="dropbtn"> Info
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="location.html">Location</a>
+      <a href="taxes.html">Tax assistance</a>
+      <a href="vote.html"> Government Info </a>
+      
+    </div>
+    </div>
+
+
+            <div class="navbar">
+  <a href="https://github.com/cormickf"> Contact </a>
+ 
+    
+    
+</div>
+
+
+    
 </div>
   
   <body>
-    <h3 id="date"> 2/23/22</h3>
+    <p><span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear());
+</script>
     <h2 id="title">Saffron City News!</h2>
-    <p class="newsP"> The grand opening of Saffron city will be on March 9 2022 </p>
-    <p class="newsP"> State wide mask mandates will be lifted on 3/12/22. Private businesses can still force mask wearing</p>
+    <p class="newsP"> 2/23/22 -- The grand opening of Saffron city's website will be on 3/9/22 </p>
+    <p class="newsP"> 2/23/22 -- State wide mask mandates will be lifted on 3/12/22. Private businesses can still force mask wearing</p>
+    <p class="newsP"> 2/23/22 -- Fine's for littering or damaging state beaches will be doubled until further notice! </p>
+    <p class="newsP"> 2/24/22 -- Saffron city has passed a new ordinance around controlling the amount of pollution citizens and businesses can produce. </p>
+    <p class="newsP"> 2/24/22 -- New Program is passed and in the works called Tax Assistance Program to help citizens pay taxes.</p>
+<p class="newsP"> 2/25/22 -- Saffron City's council number has been decided! There will be 7 members of the council stay tuned for more information.</p>
+<p class="newsP"> 2/25/22 -- New Board is created to over see all hotel and resorts in the city are following laws, and the board will create laws for the better of the city and citizens. </p>
+
+<p class="newsP"> 2/26/22 -- It has been decided that Saffron city's voting system will consist of small election's! </p>
+<p class="newsP"> 2/28/22 -- The city council has voted and decided to have a nonpartisan election for the better of the city! </p>
+
+<p class="newsP"> 2/28/22 -- 2 of the 4 founders of saffron are creating a music video to help get as any good people into the city as we can! You can look out for it on the home page! </p>
+
+<p class="newsP"> 3/3/22 -- The city has decided to use a strong mayor plan for our goverment! </p>
+    
   <body>
