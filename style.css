@@ -93,3 +93,11 @@ padding-bottom: 1em;
 
 }
 
+.video{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
